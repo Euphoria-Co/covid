@@ -4548,6 +4548,11 @@ native-base@^2.13.12:
     react-tween-state "^0.1.5"
     tween-functions "^1.0.1"
 
+native-forms@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/native-forms/-/native-forms-1.3.0.tgz#2e28c80697a9e76780a02e42c2ef7de00826e9a9"
+  integrity sha512-/t+oCVqjuwM2lYnsz4G7Zt8qS0mZxI9OHQfU0Ewf8+uTtHrJz5Ju+j/D7sOKGzBf6WtnT3LgTjigLfcuFW1X3g==
+
 negotiator@0.6.2:
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"

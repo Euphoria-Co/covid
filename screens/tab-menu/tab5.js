@@ -1,23 +1,33 @@
-import React, { Component } from "react";
-import {
-  View
-} from "react-native";
-import { WebView } from 'react-native-webview';
-import { Text } from "../../components";
+import React, { useState } from "react";
+import { Button, StyleSheet, Text, View } from "react-native";
+import NativeForms from "native-forms";
 
-export default class Tab4 extends Component {
-  state = {};
+const App = () => {
+  const [hasForm, showForm] = useState(false);
+  const show = () => showForm(true);
+  const hide = () => showForm(false);
 
+  return (
+    <View style={styles.container}>
+      <Text>NativeForms.com</Text>
 
-  render() {
-    return (
       
-        
-        
-     <View>
-       <Text>Lol</Text>
-     </View>
+
      
-    );
+        <NativeForms
+          form="https://my.nativeforms.com/N92MP1jZmcUTwcHSk1Db"/>
+     
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center"
   }
-}
+});
+
+export default App;

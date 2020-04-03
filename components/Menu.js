@@ -42,14 +42,9 @@ export default function Menu() {
 					O twórcach
 					</Text>
 				</TouchableOpacity>
-				<TouchableOpacity onPress={() => navigation.navigate('kontakt')} style={theme.menu.styles.button}>
+				<TouchableOpacity onPress={() => navigation.navigate('contact')} style={theme.menu.styles.button}>
 					<Text center style={theme.menu.styles.buttonText}> 
 					  Kontakt
-					</Text>
-				</TouchableOpacity>
-				<TouchableOpacity onPress={() => navigation.navigate('welcome')} style={theme.menu.styles.button}>
-					<Text center style={theme.menu.styles.buttonText}> 
-					  Zgłoś błędy
 					</Text>
 				</TouchableOpacity>
 				<TouchableOpacity onPress={() => navigation.navigate('welcome')} style={theme.menu.styles.button}>

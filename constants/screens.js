@@ -7,6 +7,7 @@ import Explore from "../screens/Explore";
 import Browse from "../screens/Browse";
 import Product from "../screens/Product";
 import Settings from "../screens/Settings";
+import Contact from "../screens/Contact";
 
 // ******** SZYBKIE REAGOWANIE
 import StartScreen from "../screens/szybkie-reagowanie/StartScreen";
@@ -159,6 +160,11 @@ const screensArray = [
         id: "zarazony",
         name: "Zarażony",
         data: Zarazony,
+    },
+    {
+        id: "contact",
+        name: "Contact",
+        data: Contact,
     },
 ];
 
